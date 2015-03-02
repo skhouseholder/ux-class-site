@@ -803,6 +803,10 @@ nav#nav li li:hover ul
     background:#f3f6f8;
 }
 
+.full-homepage.subtitle {
+    padding: 0;
+}
+
 .full-homepage .static-page p,
 .full-homepage .static-page li {
     font-size: 18px;
@@ -3269,7 +3273,7 @@ img.alignright, .static-page img.alignright {
 
 .static-page h1,
 .signup-footer h1 {
-	font-size: 30px;
+	font-size: 36px;
 	margin: 30px 0;
 }
 .static-page h2,
