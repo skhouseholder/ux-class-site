@@ -2,7 +2,7 @@
 layout: default
 ---
 	<div id="hero-container" class="color-1">
-        <img src="/images/header-image-blog.png" data-retina="/images/header-image-blog@2x.png" alt="ux blog header image" />
+        <img src="{{ site.baseurl }}/images/header-image-blog.png" data-retina="{{ site.baseurl }}/images/header-image-blog@2x.png" alt="ux blog header image" />
 	</div>
     <header id="main-header" class="clearfix">
 		<div id="intro-header-inner">
@@ -13,10 +13,10 @@ layout: default
         <div id="main-content">
             {% for post in site.posts %}
                 {% cycle '<article class="news-container">', '<article class="news-container last">' %}
-                    <a href="{{ post.url }}">
-                        <img src="/images/posts/{{ post.image }}-panel.png" data-retina="/images/posts/{{ post.image }}-panel@2x.png" alt="blog post image" />
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                        <img src="{{ site.baseurl }}/images/posts/{{ post.image }}-panel.png" data-retina="{{ site.baseurl }}/images/posts/{{ post.image }}-panel@2x.png" alt="blog post image" />
                     </a>
-                    <a href="{{ post.url }}" class="panel-news-link">
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="panel-news-link">
                         <div class="panel-news">
                             <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: '%B %d, %Y' }}</time>
                             <h2>{{ post.blog-list-title }}</h2>
@@ -57,7 +57,7 @@ layout: default
                 <div class="widget-wrapper clearfix">
                     <h3 class="widget-title">About Sarah</h3>		
                     <article class="text-widget ">
-					   <img src="/images/me.png"  alt="Photo of Sarah" class="imgframe" />
+					   <img src="{{ site.baseurl }}/images/me.png"  alt="Photo of Sarah" class="imgframe" />
 				        <p>I'm a UX designer with a degree in CS and a specialization in HCI.</p>
                         <p>I want to live in a world where the principles of good UX are as well known to engineers as MVC, polymorphism, and algorithm design.</p>
                     </article>		
