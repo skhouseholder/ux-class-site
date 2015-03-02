@@ -686,7 +686,6 @@ nav#nav li li:hover ul
     margin: 0 auto;
     font-size: 14px;
     text-transform: uppercase;
-    /*line-height: 46px;*/
     line-height: 40px;
     color: #fff;
     text-decoration: none;
@@ -701,7 +700,6 @@ nav#nav li li:hover ul
 }
 
 .general-subscribe-form input.button {
-    /*width:225px;*/
     width: 260px;
     height: 46px;
     display: block;
@@ -804,7 +802,8 @@ nav#nav li li:hover ul
 }
 
 .full-homepage.subtitle {
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .full-homepage .static-page p,
@@ -2855,10 +2854,8 @@ html[xmlns] .slides {display: block;}
     width:100%;
     background:#fff;
     border:1px solid #d9e4eb;
-    /*padding:0 5px;*/
     outline: none;
-    /*margin:0 0 12px 0;*/
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
     padding: 6px 10px;
     margin-bottom: 24px; 
