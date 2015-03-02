@@ -1,0 +1,67 @@
+---
+layout: default
+---
+    <div id="hero-container" class="color-4">
+        <img src="/images/header-image-contact.png" data-retina="/images/header-image-contact@2x.png" alt="letters" />
+    </div>
+    <header id="main-header" class="clearfix">
+        <div id="intro-header-inner">
+            <h1 id="main-title">Contact Sarah</h1>
+        </div>
+    </header>
+    <div id="content" class="clearfix">
+        <div id="contact-container">
+            <div id="contact-wrapper">
+                <article class="static-page">
+                    <h3>Drop me a line</h3>
+                    <p>I'm really friendly and I love getting thoughtful emails.</p>
+                    
+                    <!--
+                        <div class="errordiv">
+                            Please type your email address!!
+                        </div>
+                        <div class="correctdiv">
+                            Thanks, we will reply your message immediately.
+                        </div>
+                    -->
+                    
+
+                    <!-- <form action="https://getsimpleform.com/messages?form_api_token=9fc919917dc926c4d64be11760a98195" method="post" id="form-contact" class="clearfix">
+                        <input type='hidden' name='redirect_to' value='http://sarahhouseholder.com' />
+                        <div>
+                            <label for="text-name">Name <span>*</span></label>
+                            <input type="text" name="name" class="input" id="text-name" /><br />
+                            
+                            <label for="text-email">Email <span>*</span></label>
+                            <input type="text" name="email" class="input" id="text-email" /><br />
+                            
+                            <label for="text-comment">Message <span>*</span></label>
+                            <textarea name="message" cols="10" rows="20" class="input textarea" id="text-comment"></textarea><br />
+                            
+                            <input type="submit" name="submitcontact" class="button" value="Send" />
+                        </div>
+                    </form> -->
+
+                    <form action="//formspree.io/uxdsarah@gmail.com" method="post" id="form-contact" class="clearfix">
+                        <!-- <input type='hidden' name='redirect_to' value='http://sarahhouseholder.com' /> -->
+                        <div>
+                            <input type="hidden" name="_next" value="//site.io/thanks.html" />
+                            <input type="hidden" name="_subject" value="Message" />
+                            <input type="text" name="_gotcha" style="display:none" />
+
+                            <label for="text-name">Name <span>*</span></label>
+                            <input type="text" name="name" class="input" id="text-name" /><br />
+                            
+                            <label for="text-email">Email <span>*</span></label>
+                            <input type="email" name="-replyto" class="input" id="text-email" /><br />
+                            
+                            <label for="text-comment">Message <span>*</span></label>
+                            <textarea name="message" cols="10" rows="20" class="input textarea" id="text-comment"></textarea><br />
+                            
+                            <input type="submit" class="button" value="Send" />
+                        </div>
+                    </form>
+                </article>
+            </div>
+        </div>
+    </div>

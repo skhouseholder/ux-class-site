@@ -1,0 +1,38 @@
+---
+layout: default
+---
+	<div id="hero-container" class="color-1">
+        <img src="/images/header-image-blog.png" data-retina="/images/header-image-blog@2x.png" alt="ux blog header image" />
+	</div>
+    <header id="main-header" class="clearfix">
+		<div id="intro-header-inner">
+			<h1 id="main-title">{{ site.blog-title }}</h1>
+		</div>
+	</header>
+    <div id="content" class="clearfix">
+        <div id="main-content">
+            <article class="static-page">
+                <h2 class="post-title">{{ page.title }}</h2>
+                <ul class="news-info clearfix">
+                    <li><em>By</em> <a href="#">{{ page.author }}</a></li>
+                    <li class="last"><time datetime="2014-08-15">{{ page.date | date: "%b %-d, %Y" }}</time></li>
+                </ul>
+                <!-- <figure><img src="http://placehold.it/740x565" data-retina="http://placehold.it/1480x1130" alt="News Title" /></figure> -->
+                {{ content }}
+            </article>
+        </div>
+        <div id="sidebar">
+            <aside class="widget-container">
+                <div class="widget-wrapper clearfix">
+                    <form id="searchform" method="get" action="#">
+                        <div>
+                        <input type="text" name="s" id="s" size="15" />
+                        <input type="submit" id="searchsubmit" value="Search" />
+                        </div>
+                    </form>
+                </div>
+            </aside>
+            {% include about-sarah-sidebar.html %}
+        </div>
+    </div>
+    
