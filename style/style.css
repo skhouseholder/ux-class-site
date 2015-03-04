@@ -142,7 +142,8 @@ img {
 #form-contact .input,
 .price-container h4,
 .box-header a,
-#mc-embedded-subscribe {
+#mc-embedded-subscribe,
+.general-subscribe-form .button {
 	font-family: 'Montserrat', sans-serif;
 }
 #video-container {
@@ -751,6 +752,7 @@ nav#nav li li:hover ul
 
 #mc_embed_signup {
     margin-top: 44px;
+    margin-bottom: 44px;
     text-align: center;
 }
 

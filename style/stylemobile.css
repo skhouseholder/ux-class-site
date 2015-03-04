@@ -764,7 +764,7 @@
         font-size:50px;
     }
     #title-intro-home {
-        font-size: 44px;
+        font-size: 36px;
         width: auto;
     }
     #title-intro {
@@ -786,6 +786,13 @@
         padding-top: 30px;
         padding-bottom: 30px;
         margin-bottom: 30px;
+    }
+
+    .subtitle h1 {
+        font-size: 22px;
+    }
+    .full-homepage .static-page .promo-bullet-points p {
+        margin: 0 0 40px;
     }
     #title-why {
         font-size: 24px;
@@ -1029,9 +1036,18 @@
         */
     }
 
+    #intro-header .mc-field-group input.email,
+    .general-subscribe-form input.email {
+        width: calc(100% - 40px);
+    }
+
     #service .full-homepage .static-page {
         width:100%;
         float:none;
+    }
+
+    .static-page #mc_embed_signup {
+        margin-top: 66px;
     }
     
 	/* prettyPhoto styling for small screens */
