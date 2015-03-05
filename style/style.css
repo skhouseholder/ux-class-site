@@ -698,6 +698,7 @@ nav#nav li li:hover ul
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
+    -webkit-appearance: none;
 }
 
 .general-subscribe-form input.button {
