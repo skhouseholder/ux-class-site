@@ -2882,9 +2882,11 @@ html[xmlns] .slides {display: block;}
     -webkit-appearance: none;
 }
 #form-contact .button {
-    width:170px;
-    height:46px;
+    width:auto;
+    /*height:46px;*/
+    padding: 0px 14px;
     border-radius:5px;
+    line-height: 40px;
     background: #33abff;
     margin:0 auto;
     font-size:14px;
