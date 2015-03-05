@@ -1061,6 +1061,7 @@
     #intro-header .mc-field-group input.email,
     .general-subscribe-form input.email {
         width: calc(100% - 40px);
+        -webkit-appearance: none;
     }
 
     #service .full-homepage .static-page {

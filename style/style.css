@@ -716,6 +716,7 @@ nav#nav li li:hover ul
     text-decoration: none;
     letter-spacing: 1px;
     box-shadow:0 -3px rgba(0,0,0,0.3) inset;
+    -webkit-appearance: none;
 }
 
 .general-subscribe-form .clear {
@@ -734,6 +735,7 @@ nav#nav li li:hover ul
     padding: 6px 10px;
     margin-bottom: 24px; 
     border: 1px solid #d9e4eb;
+    -webkit-appearance: none;
 }
 
 #intro-header .mc-field-group input.email {
@@ -747,6 +749,7 @@ nav#nav li li:hover ul
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
+    -webkit-appearance: none;
 
 }
 
