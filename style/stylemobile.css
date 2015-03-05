@@ -375,9 +375,11 @@
     }
     .panel-news h2 {
         font-size:20px;
+        margin: 16px 0 0 0;
     }
     .more-news, .more-news:link, .more-news:visited {
-        width: 160px;
+        display: none;
+    /*    width: 160px;
         height: 26px;
         font-size: 11px;
         position: relative;
@@ -392,11 +394,11 @@
         -webkit-transition: none;
         -moz-transition: none;
         -o-transition: none;
-        -ms-transition: none;
+        -ms-transition: none;*/
     }
     .panel-news:hover .more-news {
-        opacity: 1;
-        bottom:auto;
+     /*   opacity: 1;
+        bottom:auto;*/
     }
     .news-container img {
         vertical-align: top;
@@ -696,6 +698,7 @@
     .panel-news h2 {
         font-size:16px;
         padding:0 10px;
+        margin: 9px 0 0 0;
     }
     .grid-work {
         width:50%;
@@ -987,6 +990,31 @@
         width:100%;
         height:auto;
     }
+
+    .more-news, .more-news:link, .more-news:visited {
+        width: 160px;
+        height: 26px;
+        font-size: 11px;
+        position: relative;
+        bottom: auto;
+        left: auto;
+        display: block;
+        margin:25px auto;
+        text-decoration: none;
+        letter-spacing: 1px;
+        opacity: 1;
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+    }
+    
+    .panel-news:hover .more-news {
+        opacity: 1;
+        bottom:auto;
+    }
+
     .image-grid-logo {
         width: 120px;
         margin-left: -60px;
