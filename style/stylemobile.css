@@ -80,9 +80,23 @@
         font-size:12px;
         padding:7px 5px;
     }
+
+    #nav-main .header-signup-button a {
+        font-size:12px;
+    }
+
     #nav-social li {
         margin:0 0 0 5px;
     }
+
+    #header-full.follow #nav-main li.header-signup-button a {
+        margin: 2px auto 0px;
+        line-height: 16px;
+
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
     #title-intro {
         font-size:34px;
     }
@@ -608,6 +622,14 @@
     #nav-main li a {
         font-size:11px;
     }
+    #nav-main .header-signup-button a {
+        font-size:11px;
+    }
+
+    #header-full.follow #nav-main li.header-signup-button a {
+        line-height: 15px;
+    }
+
     #image-intro {
         width:50%;
         height:auto;

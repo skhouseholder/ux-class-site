@@ -448,7 +448,7 @@ video#bgvid {
     border: none;
     background: #33abff;
     margin: -2px auto 0;
-    font-size: 14px;
+    /*font-size: 14px;*/
     text-transform: uppercase;
     line-height: 25px;
     color: #fff;
@@ -758,6 +758,10 @@ nav#nav li li:hover ul
 
 .static-page #mc_embed_signup {
     margin-top: 100px;
+}
+
+#mc_embed_signup_scroll {
+    display: inline-block;
 }
 
 #intro {
