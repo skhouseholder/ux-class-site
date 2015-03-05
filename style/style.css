@@ -819,10 +819,16 @@ nav#nav li li:hover ul
 .full-homepage .static-page p,
 .full-homepage .static-page li {
     font-size: 18px;
+    /* same as rule for .promo-bullet-points p:last-child */
 }
 
 .full-homepage .static-page .promo-bullet-points p {
     margin: 0 0 66px;
+}
+
+.full-homepage .static-page .promo-bullet-points p:last-child {
+    margin: 0 0 18px;
+    /* same as rule for .full-homepage .static-page p */
 }
 
 .full-homepage.white,

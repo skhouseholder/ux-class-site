@@ -634,6 +634,16 @@
         width:50%;
         height:auto;
     }
+
+    .full-homepage .image-service,
+    .full-homepage.white-right-image .image-service {
+        margin: 0 0 36px 5%;
+    }
+
+    .full-homepage.white .image-service {
+        margin: 0 5% 36px 0;
+    }
+
     .service-home img {
         width: 44px;
         height: 44px;
