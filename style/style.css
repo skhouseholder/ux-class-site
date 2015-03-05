@@ -2851,7 +2851,7 @@ html[xmlns] .slides {display: block;}
 }*/
 
 #contact-wrapper form {
-    width: 740px;
+    width: 500px;
 }
 #contact-wrapper .static-page p, #contact-wrapper .static-page p ul, #contact-wrapper .static-page p ol {
     font-size:18px;
@@ -2875,9 +2875,11 @@ html[xmlns] .slides {display: block;}
     font-family: 'Open Sans', sans-serif;
     padding: 6px 10px;
     margin-bottom: 24px; 
+    -webkit-appearance: none;
 }
 #form-contact .input.textarea {
     height:200px;
+    -webkit-appearance: none;
 }
 #form-contact .button {
     width:170px;
@@ -2899,6 +2901,7 @@ html[xmlns] .slides {display: block;}
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
+    -webkit-appearance: none;
 }
 #form-contact .button:hover {
     background:#82bac6;
