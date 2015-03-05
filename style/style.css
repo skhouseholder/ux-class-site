@@ -676,9 +676,10 @@ nav#nav li li:hover ul
     opacity: 0;
 }
 #button-intro, #button-intro:link, #button-intro:visited, #mc-embedded-subscribe {
-    /*width:225px;*/
-    width: 260px;
-    height: 46px;
+    /*width: 260px;*/
+    /*height: 46px;*/
+    width: auto;
+    padding: 2px 18px;
     display: block;
     cursor: pointer;
     border-radius: 5px;
@@ -702,8 +703,10 @@ nav#nav li li:hover ul
 }
 
 .general-subscribe-form input.button {
-    width: 260px;
-    height: 46px;
+    /*width: 260px;*/
+    /*height: 46px;*/
+    width: auto;
+    padding: 2px 18px;
     display: block;
     cursor: pointer;
     border-radius: 5px;
