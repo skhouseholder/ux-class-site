@@ -209,6 +209,7 @@ video#bgvid {
     color:#fff;
     line-height:1.6;
     width:700px;
+    margin-bottom: 24px;
 }
 .button-slide, .button-slide:link, .button-slide:visited {
     float:left;
@@ -3004,19 +3005,26 @@ ul.news-sidebar li .date-news {
 ul.news-sidebar li h5 {
     display: none;
 }
+
+#sidebar .search-widget {
+    display: none;
+}
 #searchform {
     background:#fff;
     border:1px solid #d9e4eb;
     display: block;
     height:40px;
 }
-#searchform #s {
-    width:65%;
-    float:left;
-    border:none;
-    height: 24px;
-    padding:8px 5px;
-    outline: none;
+#searchform #s,
+.gsc-search-box #gsc-i-id1 {
+    width:65% !important;
+    float:left !important;
+    border:none !important;
+    height: 24px !important;
+    padding:8px 5px !important;
+    outline: none !important;
+    background: none !important;
+    margin: none !important;
 }
 #searchform #searchsubmit {
     border:none;

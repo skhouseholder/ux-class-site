@@ -31,7 +31,7 @@ layout: default
             <div class="button-next"><a href="#">Next Entries</a></div>
         </div>   -->
         <div id="sidebar">
-            <aside class="widget-container">
+            <aside class="widget-container search-widget">
                 <div class="widget-wrapper clearfix">
                     <form id="searchform" method="get" action="http://www.google.com/cse">
                         <input type="hidden" name="cref" value="" />
@@ -46,57 +46,21 @@ layout: default
                 </div>
             </aside>
 
-<!-- <aside class="widget-container">
-            <script>
-  (function() {
-    var cx = '003689226389293345629:a_i2jqhyh0e';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-</aside> -->
-
-            <!-- <aside class="widget-container">
-                <div class="widget-wrapper clearfix">
-                    <h3 class="widget-title">News Category</h3>
-                    <ul>
-                        <li><a href="#">Design News</a></li>
-                        <li><a href="#">Economic</a></li>
-                        <li><a href="#">From our Office</a></li>
-                        <li><a href="#">Work &amp; Play</a></li>
-                        <li><a href="#">International</a></li>
-                    </ul>
-                </div>
-            </aside> -->
-            <!-- <aside class="widget-container blog-about-author">
-                <div class="widget-wrapper clearfix">
-                    <h3 class="widget-title">About Sarah</h3>		
-                    <article class="text-widget ">
-					   <img src="{{ site.baseurl }}/images/me.png"  alt="Photo of Sarah" class="imgframe" />
-				        <p>I'm a UX designer with a degree in CS and a specialization in HCI.</p>
-                        <p>I want to live in a world where the principles of good UX are as well known to engineers as MVC, polymorphism, and algorithm design.</p>
-                    </article>		
-                </div>
-            </aside> -->
             {% include about-sarah-sidebar.html %}
         </div>
     </div>
     <div id="bottom-page" class="signup-footer">
         <h3>Want to improve your UX skills? Sign up for {{ site.class-title }}.</h3>
-        <!-- Begin MailChimp Signup Form -->
+                <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
-                <form action="http://webfactional.us5.list-manage.com/subscribe/post?u=7bbed81fd8066300c078d462e&amp;id=e052a900b4" method="post" class="general-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <form action="http://webfactional.us5.list-manage2.com/subscribe/post" method="POST" class="general-subscribe-form">
+                    <input type="hidden" name="u" value="7bbed81fd8066300c078d462e">
+                    <input type="hidden" name="id" value="e052a900b4">
                     <div id="mc_embed_signup_scroll">
                     
                 <div class="mc-field-group">
                     <!-- <label for="mce-EMAIL">Email Address </label> -->
-                    <input type="email" value="" name="EMAIL" class="required email" placeholder="you@example.com" id="mce-EMAIL">
+                    <input type="email" value="" name="MERGE0" class="required email" placeholder="you@example.com" id="mce-EMAIL">
                 </div>
                     <div id="mce-responses" class="clear">
                         <div class="response" id="mce-error-response" style="display:none"></div>
@@ -105,7 +69,7 @@ layout: default
                     <div style="position: absolute; left: -5000px;">
                         <input type="text" name="b_7bbed81fd8066300c078d462e_e052a900b4" tabindex="-1" value="">
                     </div>
-                    <div class="clear">
+                    <div>
                         <input type="submit" value="Request early access" name="subscribe" class="button"></div>
                     </div>
                 </form>
