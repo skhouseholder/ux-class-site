@@ -427,7 +427,7 @@ video#bgvid {
 #nav-main li a {
 	float:left;
 	font-size:14px;
-	color:#fff;
+	color:#eee;
 	text-transform: uppercase;
 	text-decoration: none;
 	padding:5px 10px;
@@ -444,12 +444,13 @@ video#bgvid {
     color:#fff;
 }
 
-#header-full.follow #nav-main li.header-signup-button a {
+#header-full.follow #nav-main li.header-signup-button a,
+#header-full.follow #nav-main li.header-signup-button.current-menu-item a {
     border-radius: 5px;
     border: none;
     background: #33abff;
     margin: -2px auto 0;
-    /*font-size: 14px;*/
+    font-weight: normal;
     text-transform: uppercase;
     line-height: 25px;
     color: #fff;
@@ -1916,8 +1917,14 @@ html[xmlns] .slides {display: block;}
 .static-page ul.news-info li:first-child a:hover {
     text-decoration: underline;
 }
+
+.static-page.blog-post {
+    margin-bottom: 50px;
+}
+
 #comments {
     background:#f3f6f8;
+    padding: 15px 27px;
 }
 .title-comment, .title-comment strong {
     font-size:22px;

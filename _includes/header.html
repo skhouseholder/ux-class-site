@@ -24,17 +24,41 @@
                     </a>
                     <ul id="nav-main">
                         <!-- <li class="current-menu-item"><a href="index.html">The Class</a></li> -->
-                        <li><a href="{{ site.baseurl }}/">Home</a></li>
-                        <li><a href="{{ site.baseurl }}/about/">About</a></li>
-                        <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-                        <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
-                        <li class="header-signup-button"><a href="{{ site.baseurl }}/signup/">Sign up</a></li>
+                        {% if page.active == "home" %}
+                          <li class="current-menu-item"><a href="{{ site.baseurl }}/">Home</a></li>
+                        {% else %}
+                          <li><a href="{{ site.baseurl }}/">Home</a></li>
+                        {% endif %}
+
+                        {% if page.active == "about" %}
+                          <li class="current-menu-item"><a href="{{ site.baseurl }}/about/">About</a></li>
+                        {% else %}
+                          <li><a href="{{ site.baseurl }}/about/">About</a></li>
+                        {% endif %}
+
+                        {% if page.active == "blog" %}
+                          <li class="current-menu-item"><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+                        {% else %}
+                          <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+                        {% endif %}
+
+                        {% if page.active == "contact" %}
+                          <li class="current-menu-item"><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+                        {% else %}
+                          <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+                        {% endif %}
+
+                        {% if page.active == "signup" %}
+                          <li class="current-menu-item header-signup-button"><a href="{{ site.baseurl }}/signup/">Sign Up</a></li>
+                        {% else %}
+                          <li class="header-signup-button"><a href="{{ site.baseurl }}/signup/">Sign Up</a></li>
+                        {% endif %}
+                        
                     </ul>
                 </div>
       </nav>
     </div>
   </div>
-
 
 <!-- <header class="site-header">
 
