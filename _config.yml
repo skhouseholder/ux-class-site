@@ -5,8 +5,8 @@ blog-title: The UX Blog
 email: uxdsarah@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Learn to create awesome experiences all by yourself. 
-baseurl: "/ux-class-site" # the subpath of your site, e.g. /blog/
-url: "https://skhouseholder.github.io/ux-class-site/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.uxdesignforengineers.com/" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
