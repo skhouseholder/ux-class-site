@@ -938,10 +938,11 @@
         float:none;
         margin:0 0 30px 0;
     }
-    .wp-caption.alignright, .wp-caption.alignleft {
+    #main-content .wp-caption.alignright,
+    #main-content .wp-caption.alignleft {
         width: 100%;
         float:none;
-        margin: 0 0 15px 0;
+        margin: 10px 0 15px 0;
     }
     .static-page blockquote.alignleft, .static-page blockquote.alignright {
         width:auto;
