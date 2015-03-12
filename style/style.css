@@ -3016,6 +3016,11 @@ ul.news-sidebar li h5 {
 #sidebar .search-widget {
     display: none;
 }
+
+#sidebar .search-widget-post {
+    visibility: hidden;
+}
+
 #searchform {
     background:#fff;
     border:1px solid #d9e4eb;
@@ -3490,16 +3495,27 @@ table tbody tr td.cellfeat, table tbody tr.odd td.cellfeat {
 	float: left;
 	font-family: Old English, Georgia,serif;
 	font-size:50px;
-	line-height: 0.7em;
+	line-height: 0.85em;
 	margin-right: 5px;
 	margin-top:5px;
     color:#33abff;
 }
+
+.dropcap.medium-big {
+    float: left;
+    font-family: Old English, Georgia,serif;
+    font-size:3.6em;
+    line-height: 0.85em;
+    margin-right: 5px;
+    margin-top:5px;
+    color:#33abff;
+}
+
 .dropcap.big {
 	float: left;
 	font-family: Old English, Georgia,serif;
 	font-size: 84px;
-	line-height: 0.7em;
+	line-height: 0.85em;
 	margin-right: 10px;
 	margin-top:7px;
     color:#33abff;
