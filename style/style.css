@@ -3035,11 +3035,11 @@ form.gsc-search-box {
 
 #searchform #s,
 .gsc-search-box #gsc-i-id1 {
-    width:65% !important;
+    width: 90% !important;
     float:left !important;
     border:none !important;
     height: 24px !important;
-    padding:8px 5px !important;
+    padding: 8px 5px !important;
     outline: none !important;
     background: none !important;
     margin: none !important;
