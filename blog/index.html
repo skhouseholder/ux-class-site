@@ -32,19 +32,20 @@ active: blog
             <div class="button-next"><a href="#">Next Entries</a></div>
         </div>   -->
         <div id="sidebar">
-            <aside class="widget-container search-widget">
-                <div class="widget-wrapper clearfix">
-                    <form id="searchform" method="get" action="http://www.google.com/cse">
-                        <input type="hidden" name="cref" value="" />
-                        <input type="hidden" name="ie" value="utf-8" />
-                        <input type="hidden" name="hl" value="" />
-                        <div>
-                            <input type="text" name="q" id="s" size="15" />
-                            <input type="submit" name="sa" id="searchsubmit" value="Search" />
-                        </div>
-                    </form>
-                    <script type="text/javascript" src="https%3A%2F%2Fwww.google.com%2Fcse/tools/onthefly?form=searchform&lang="></script>
-                </div>
+            <aside class="widget-container">
+                <script>
+                  (function() {
+                    var cx = '003689226389293345629:a_i2jqhyh0e';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                        '//www.google.com/cse/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                  })();
+                </script>
+                <gcse:searchbox-only></gcse:searchbox-only>            
             </aside>
 
             {% include about-sarah-sidebar.html %}
