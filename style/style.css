@@ -3021,6 +3021,14 @@ ul.news-sidebar li h5 {
     visibility: hidden;
 }
 
+
+/*
+ * All these stupid !important's are to override
+ * Google Custom Search Engine's ridiculously awful-looking
+ * search box styles. CSS gods forgive me.
+ *
+ */
+
 #searchform,
 form.gsc-search-box {
     background:#fff !important;
@@ -3056,13 +3064,7 @@ form.gsc-search-box {
     text-indent:-9999px !important;
     cursor: pointer !important;
     opacity: 0.8 !important;
-    /*padding: 2px 6px 3px !important;
-    margin: 0 !important;*/
 }
-
-/*.gsc-search-button input[type=image] {
-    filter: invert(100%) !important;
-}*/
 
 #searchform #searchsubmit:hover,
 .gsc-search-button input:hover,
@@ -3078,7 +3080,6 @@ form.gsc-search-box {
 .gsc-search-box .gsc-input {
    border: none !important;
    background: none !important;
-   /*height: auto !important;*/
    border-color: inherit !important;
    box-shadow: none !important;
 }
