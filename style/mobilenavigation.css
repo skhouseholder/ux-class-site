@@ -164,12 +164,12 @@
         color:#333;
         text-shadow:0 1px #fff;
         background-color: #fff;  
-        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ddd));
+        /*background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ddd));
         background-image: -webkit-linear-gradient(top, #fff, #ddd); 
         background-image:    -moz-linear-gradient(top, #fff, #ddd);
         background-image:     -ms-linear-gradient(top, #fff, #ddd);
         background-image:      -o-linear-gradient(top, #fff, #ddd);
-        box-shadow:0 -1px rgba(255,255,255,0.5) inset;
+        box-shadow:0 -1px rgba(255,255,255,0.5) inset;*/
     }
     .icon-bar {
         display: block;
