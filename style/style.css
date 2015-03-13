@@ -816,6 +816,10 @@ nav#nav li li:hover ul
     background:#f3f6f8;
 }
 
+.full-homepage.gray {
+    padding: 120px 0;
+}
+
 .full-homepage.subtitle {
     padding-top: 0;
     padding-bottom: 0;
@@ -2249,7 +2253,8 @@ html[xmlns] .slides {display: block;}
     padding-top:30px;
     text-transform: uppercase;
 }
-.full-homepage.white .image-service {
+.full-homepage.white .image-service,
+.full-homepage.gray-left-image .image-service {
     float:left;
     margin:0 5% 0 0;
 }

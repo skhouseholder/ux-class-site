@@ -1,23 +1,151 @@
 ---
-layout: default
+layout: landing-default
+active: home
 ---
+	<div id="video-container">
+		<video autoplay loop poster="{{ site.baseurl }}/images/home-video.jpg" id="bgvid">
+			<source src="{{ site.baseurl }}/images/video.webm" type="video/webm">
+			<source src="{{ site.baseurl }}/images/video.mp4" type="video/mp4">
+            <source src="{{ site.baseurl }}/images/video.ogv" type="video/ogg">
+		</video>
+	</div>
+    <header id="main-header" class="clearfix">
+		<div id="intro-header">
+			<!-- <h2 id="subtitle-intro-home">Creative</h2> -->
+            <h1 id="title-intro-home">Learn to create awesome experiences</h1>
+			<!-- <p>Need web design? We are a Creative team behind amazing website in the world</p> -->
 
-<div class="home">
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="http://webfactional.us5.list-manage2.com/subscribe/post" method="POST">
+                    <input type="hidden" name="u" value="7bbed81fd8066300c078d462e">
+                    <input type="hidden" name="id" value="e052a900b4">
+                    <div id="mc_embed_signup_scroll">
+                    
+                <div class="mc-field-group">
+                    <!-- <label for="mce-EMAIL">Email Address </label> -->
+                    <input type="email" value="" name="MERGE0" class="required email" placeholder="you@example.com" id="mce-EMAIL">
+                </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;">
+                        <input type="text" name="b_7bbed81fd8066300c078d462e_e052a900b4" tabindex="-1" value="">
+                    </div>
+                    <div class="clear">
+                        <input type="submit" value="Request early access" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+            </div>
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+            <!--End mc_embed_signup-->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+            <!-- <a href="#" id="button-intro">Sign up for early access</a> -->
+		</div>
+	</header>
+    <div class="full-homepage white subtitle">
+        <div class="full-width clearfix">
+            <article class="static-page">
+                <div>
+                    <h1>{{ site.class-title }} is a new class in the SF Bay Area.</h1>
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="full-homepage">
+        <div class="full-width clearfix">
+            <img src="{{ site.baseurl }}/images/unicorn.png" data-retina="{{ site.baseurl }}/images/unicorn@2x.png" alt="Design" class="image-service" />
+            <article class="static-page">
+                <div class="promo-bullet-points">
+                    <h3 class="first title-service">Be independent</h2>
+                    <p>Go from an idea to a delightful user experience all by yourself.</p> 
+                    <h3 class="title-service">Become a unicorn</h2>
+                    <p>The world is your oyster when you can write great code and build great experiences. </p> 
+                    <h3 class="title-service">Feel confident</h2>
+                    <p>UX design doesn't require an art degree. With the right training, you can do it too if you're rational and smart.</p> 
+                </div>
+            </article>
+        </div>
+    </div>
 
-</div>
+    <div class="full-homepage white">
+        <div class="full-width clearfix">
+            <img src="{{ site.baseurl }}/images/art.png" data-retina="{{ site.baseurl }}/images/art@2x.png" class="image-service" />
+            <article class="static-page">
+                
+                <h3 class="first">"But I have no design sense..."</h3>
+                <p>It doesn't take a degree in graphic design to create a good user experience. It takes reason and thought and consistent application of principles – stuff that engineers are already good at.</p>
+
+                <p>You can do it too. Sign up to get early access or be notified when the class launches!</p> 
+
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="http://webfactional.us5.list-manage2.com/subscribe/post" method="POST" class="general-subscribe-form">
+                    <input type="hidden" name="u" value="7bbed81fd8066300c078d462e">
+                    <input type="hidden" name="id" value="e052a900b4">
+                    <div id="mc_embed_signup_scroll">
+                    
+                <div class="mc-field-group">
+                    <!-- <label for="mce-EMAIL">Email Address </label> -->
+                    <input type="email" value="" name="MERGE0" class="required email" placeholder="you@example.com" id="mce-EMAIL">
+                </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;">
+                        <input type="text" name="b_7bbed81fd8066300c078d462e_e052a900b4" tabindex="-1" value="">
+                    </div>
+                    <div>
+                        <input type="submit" value="Request early access" name="subscribe" class="button"></div>
+                    </div>
+                </form>
+            </div>
+            <!--End mc_embed_signup-->
+            </article>
+        </div>
+    </div>    
+    
+    <div class="full-homepage">
+        <div class="full-width clearfix">
+            <img src="{{ site.baseurl }}/images/business-goals.png" data-retina="{{ site.baseurl }}/images/business-goals@2x.png" class="image-service" />
+            <article class="static-page">
+                    <h3 class="title-service first">How is this class different?</h2>
+                    <p>{{ site.class-title }} is built from the ground up for engineers, app developers, and startup founders. It focuses on one main theme: executing business goals.</p>
+                    <p>User Experience Design is a big field, but most engineers don't need to know all the minutiae to create a great product.</p>
+                    <p>Lots of people teach UX, but <i>I</i> will teach you the parts of it that help execute your goals. And I won't waste your time.</p>
+                    <p><a href="{{ site.baseurl }}/about/">Learn more</a> or sign up below.</p>
+            </article>
+        </div>
+    </div>
+    <div id="bottom-page">
+
+                    <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="http://webfactional.us5.list-manage2.com/subscribe/post" method="POST" class="general-subscribe-form">
+                    <input type="hidden" name="u" value="7bbed81fd8066300c078d462e">
+                    <input type="hidden" name="id" value="e052a900b4">
+                    <div id="mc_embed_signup_scroll">
+                    
+                <div class="mc-field-group">
+                    <!-- <label for="mce-EMAIL">Email Address </label> -->
+                    <input type="email" value="" name="MERGE0" class="required email" placeholder="you@example.com" id="mce-EMAIL">
+                </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;">
+                        <input type="text" name="b_7bbed81fd8066300c078d462e_e052a900b4" tabindex="-1" value="">
+                    </div>
+                    <div>
+                        <input type="submit" value="Request early access" name="subscribe" class="button"></div>
+                    </div>
+                </form>
+            </div>
+            <!--End mc_embed_signup-->
+
+    </div>
