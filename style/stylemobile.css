@@ -642,7 +642,8 @@
         margin: 0 0 36px 5%;
     }
 
-    .full-homepage.white .image-service {
+    .full-homepage.white .image-service,
+    .full-homepage.gray-left-image .image-service {
         margin: 0 5% 36px 0;
     }
 
@@ -779,7 +780,7 @@
 	body {
 		min-width:auto;	
 	}
-    #video-container, #slideshow-container, #header, .home #main-header, #intro, .full-homepage, .service-home-container, #bottom-page, #main-footer, #hero-container, #main-header, #content {
+    #video-container, #slideshow-container, #header, .home #main-header, #intro, .full-homepage, .full-homepage.gray, .service-home-container, #bottom-page, #main-footer, #hero-container, #main-header, #content {
         padding:0 15px;
     }
     #nav-social {
@@ -817,10 +818,16 @@
     #video-container #bgvid {
         display: none;
     }
-    .full-homepage {
+    .full-homepage, 
+    .full-homepage.gray {
         padding-top: 30px;
         padding-bottom: 30px;
         margin-bottom: 30px;
+    }
+
+    .full-homepage.gray {
+      padding-top: 60px;
+      padding-bottom: 60px;
     }
 
     .subtitle h1 {
@@ -1044,6 +1051,7 @@
         float:left;
     }
     .full-homepage .image-service,
+    .full-homepage.gray-left-image .image-service,
     .full-homepage.white .image-service,
     .full-homepage.white-right-image .image-service {
         float:none;
